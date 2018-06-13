@@ -24,8 +24,8 @@ void setup() {
   textures[8] = loadImage("neptun.jpg"); //http://planetpixelemporium.com/download/download.php?neptunemap.jpg, http://planetpixelemporium.com/neptune.html
 
   planeten[0] = new planet (80, sunTexture);               //Sonne: durchmesser, R,G,B
-  planeten[1] = new planet (100, 9, 0.96, textures[0]);    //Merkur: zentralKoerper, zentralRadius,durchmesser, geschwindigkeit, R,G,B
-  planeten[2] = new planet (130, 17, 0.7, textures[1]);    //Venus
+  planeten[1] = new planet (95, 9, 0.96, textures[0]);    //Merkur: zentralKoerper, zentralRadius,durchmesser, geschwindigkeit, R,G,B
+  planeten[2] = new planet (122, 15, 0.7, textures[1]);    //Venus
   planeten[3] = new planet (160, 20, 0.6, textures[2]);    //Erde
   planeten[4] = new planet (185, 3, 0.6, textures[3]);     //Mond
   planeten[5] = new planet (210, 10, 0.48, textures[4]);   //Mars

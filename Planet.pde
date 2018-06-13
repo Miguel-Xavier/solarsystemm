@@ -39,7 +39,6 @@ class planet {
 
   void render() {
     pushMatrix();
-    //translate(width/2, height/2, -300);
     translate(width/2,height/2, 0);
     noStroke();
     pushMatrix();
